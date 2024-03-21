@@ -5,11 +5,11 @@ Peça ao usuário para digitar sua idade
 Se nome e idade forem digitados:
     Exiba:
     Seu nome é {nome} FEITO
-    Seu nome invertido é {nome[::-1]} FEITO
+    Seu nome invertido é {nome invertido} FEITO
     Seu nome contém (ou não) espaços FEITO
-    Seu nome tem print(len(nome)) letras FEITO
-    A primeira letra do seu nome é {nome[0]} FEITO
-    A última letra do seu nome é {nome[(len(nome)]} FEITO
+    Seu nome tem {n} letras FEITO
+    A primeira letra do seu nome é {letra} FEITO
+    A última letra do seu nome é {letra} FEITO
 Se nada for digitado em nome ou idade:
     exiba "Desculpe, você deixou campos vazios."
 """
